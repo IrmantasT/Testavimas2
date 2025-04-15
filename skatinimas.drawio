@@ -251,16 +251,16 @@
           <mxGeometry x="38" y="3300" width="752" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-27" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;2 formulės &quot;Papildomi darbai&quot;&lt;/h3&gt;&lt;p&gt;Ši formulė remiasi tik jos nustatymuose nurodytu koeficientu ir faktinėmis darbo valandomis.&lt;/p&gt;&lt;p&gt;PVZ. Jeigu &quot;Papildomi darbai&quot; nustatyme nurodyta jog skaičiuojamas pastovus koeficientas - 0.9, tuomet darbuotojo skatinimas yra faktines valandas padauginus iš įkainio atitinkančio 0,9 kof. - 1,5Eur&amp;nbsp; (7.6 * 1,5 = 11,4Eur)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="54.379999999999995" y="3430" width="719.25" height="120" as="geometry" />
+          <mxGeometry x="45.51" y="3530" width="719.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-28" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;3 formulės &quot;DC koeficientas&quot;&lt;/h3&gt;&lt;p&gt;Ši formulė remiasi parinkto DC dienos koeficiento įkainiu, padaugintų iš faktinių valandų. Kaip ankstesniame pavyzdyje naudotas&amp;nbsp; CARGO dienos koeficientas - 1.0 ir jo įkainis 2,18Eur tad žmogaus išdirbtos valandos dauginamos iš šio koeficiento.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="52.12" y="3570" width="719.25" height="120" as="geometry" />
+          <mxGeometry x="43.25" y="3670" width="719.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-29" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;4 formulės &quot;Susietų koeficientų rodiklio&quot; skaičiavimas&lt;/h3&gt;&lt;p&gt;Ši formulė bus naudojama padaliniams, kurių darbas tiesiogiai priklauso nuo kitų darbo centrų. Kaip pagrindinis šios formulės naudotojas bus sandėlio komplektavimo DC, kur darbuotojai komplektuoja komponentus gamybinėms linijoms.&lt;/p&gt;&lt;p&gt;Šio DC nustatymuose reikalinga nurodyti, kokių linijų dienos skatinimus vertinti. Pavyzdžiui: CARGO, 3642, 3645, 3643, dažymas, paruosimas, ratų baras. Taip pat nurodomas skaičiavimo koeficientas. Šiai dienai galiojantis - 6,5&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="45.38" y="3710" width="747.25" height="120" as="geometry" />
+          <mxGeometry x="43.38" y="3830" width="747.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-30" value="Biudžetas " style="shape=table;startSize=20;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=11;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="42.75" y="3840" width="120" height="170" as="geometry" />
+          <mxGeometry x="40.75" y="3960" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="fDfwbpNWidiNjyf5FPhW-30">
           <mxGeometry y="20" width="120" height="22" as="geometry" />
@@ -354,10 +354,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-57" value="Susumavus visų priskirtų DC dienos skatinimų sumas, gauname 101.49Eur&lt;div&gt;Pritaikius nustatytą 6,5 koeficientą gauname 101.49 * 6,5 = &lt;b&gt;659.69 Eur&lt;/b&gt;, ir tai yra dienos skatinimo biudžetas skirtas sandėlio koplektuotojams&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="231.38" y="3840" width="542.25" height="50" as="geometry" />
+          <mxGeometry x="229.38" y="3960" width="542.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-58" value="Sandėlio komplektavimo DC darbuotojų žurnalas" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="3901.5" width="540" height="250" as="geometry" />
+          <mxGeometry x="238" y="4021.5" width="540" height="250" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="fDfwbpNWidiNjyf5FPhW-58">
           <mxGeometry y="30" width="540" height="40" as="geometry" />
@@ -690,7 +690,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-142" value="Dienos skatinimo biudžetas naudojamas tik tiesiogiai pagal 4 formulę dirbantiems darbuotojams. Pavyzdyje 4 formulės valandų turi 8 darbuotojai, kurių bendra valandų suma lygi&amp;nbsp; 58val. Šiems darbuotojams skatinimo dalis pagal 4 formulę bus suskaičiuojama sekančiai&lt;div&gt;659,69 Eur / 58 val. = 11.37Eur/ val. tuomet kiekvienam pagal išdirbtas valandas 8 x 11.37Eur = 90,96Eur&lt;/div&gt;&lt;div&gt;Gautas valandos įkainis taip pat naudojamas skaičiuoti DC vidurkio darbuotojų skatinimą, jų dirbtas valandas dauginant iš šio įkainio.&lt;/div&gt;&lt;div&gt;Kaip PVZ. Darbuotojas9 skatinimas yra 8*11.37Eur = 90.96&lt;br&gt;Papildomų darbų įkainis skaičiuojamas kaip ir kituose DC pagal &quot;Papildomi darbai&quot; nustatytą koeficientą, naudojant koeficiento įkainį iš įkainių lentelės.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="62.75" y="4200" width="737.25" height="100" as="geometry" />
+          <mxGeometry x="60.75" y="4320" width="737.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fDfwbpNWidiNjyf5FPhW-143" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Individualus koeficiento pritaikymas&lt;/h1&gt;&lt;p&gt;Ankstesniuose pavyzdžiuose buvo pavaizduotas &quot;Skaičiavimo koeficientas&quot;, dar vadinamas dienos įkainio koeficientas (DIK) kuris leidžia individualiam darbuotojui &quot;padidinti&quot; / &quot;pamažinti&quot; dienos indėlio &quot;svorį&quot;.&lt;/p&gt;&lt;p&gt;Pagal nutylėjimą šis koeficientas lygus 1.0 visiems darbuotojams. Kaip pavyzdys CARGO dienos skatinimas darbuotojų lygyje&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="4690" width="754.62" height="110" as="geometry" />
